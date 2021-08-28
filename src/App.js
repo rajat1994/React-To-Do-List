@@ -1,9 +1,10 @@
+import {Header} from './components/layout/Header'
+import {Content} from './components/layout/Content'
+
 export const App = () => (
-  
-    <div className="App">
-      <header className="App-header">
-        <p>To Do List </p>
-      </header>
+  <div className="App">
+      <Header/>
+      <Content/>
     </div>
 
 );
